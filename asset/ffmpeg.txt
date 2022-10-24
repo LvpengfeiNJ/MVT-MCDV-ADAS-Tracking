@@ -1,0 +1,1 @@
+ffmpeg -i kitti_testing00_frame/%05d.jpg -vf fps=25,scale=720:-1 kitti_t0.gif
